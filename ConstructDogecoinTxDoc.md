@@ -1,4 +1,4 @@
-# Dogecoin Doc For Go
+# Construct Dogecoin Transaction
 
 ## Functions
 
@@ -109,7 +109,7 @@ GenerateSignature**
     @return error: nil|errMsg
 ```
 
-## Demo
+## Example
 
 Here is an [example](https://github.com/chainx-org/dogecoin-go-api/blob/main/demo/dogecoinDemo.go) for reference, which is easy to understand the complete process of using dogecoin package to construct dogecoin transactions.
 
