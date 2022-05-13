@@ -1,7 +1,7 @@
 package dogecoin
 
 /*
-#cgo ios LDFLAGS: -L../../lib -ldogecoin_dll
+#cgo LDFLAGS: libdogecoin_dll.a
 #include <stdlib.h>
 #include "../../lib/DogecoinHeader.h"
 */
