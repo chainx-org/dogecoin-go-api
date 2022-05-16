@@ -1,7 +1,8 @@
 package dogecoin
 
 /*
-#cgo LDFLAGS: libdogecoin_dll.a
+#cgo android,arm64 LDFLAGS: -L../../lib/android/arm64-v8a -ldogecoin_dll -lm -ldl
+#cgo android,arm LDFLAGS: -L../../lib/android/armeabi-v7a -ldogecoin_dll -lm -ldl
 #include <stdlib.h>
 #include "../../lib/DogecoinHeader.h"
 */
