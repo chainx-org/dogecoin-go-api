@@ -6,7 +6,7 @@ The repository is constructed for Go language and is mainly used to construct Do
 
 - go.mod
 
-  ~~~go
+  ~~~mod
   require github.com/chainx-org/dogecoin-go-api v0.1.0
   ~~~
 
