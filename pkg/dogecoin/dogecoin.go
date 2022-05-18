@@ -5,6 +5,7 @@ package dogecoin
 #cgo android,arm LDFLAGS: -L../../lib/android/armeabi-v7a -ldogecoin_dll -lm -ldl
 #cgo ios LDFLAGS: -L../../lib/ios -ldogecoin_dll -framework Foundation -framework Security
 #cgo darwin LDFLAGS: -L../../lib/darwin -ldogecoin_dll
+#cgo linux LDFLAGS: -L../../lib/linux -ldogecoin_dll
 #include <stdlib.h>
 #include "../../lib/DogecoinHeader.h"
 */
